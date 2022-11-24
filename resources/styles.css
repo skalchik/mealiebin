@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Rubik+Bubbles&family=Rubik+Distressed&display=swap');
+
+body {
+    background-color: #EEE38C;
+    text-align: center;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 1.75rem;
+    color: #38341B;
+}
+nav ul,
+.team ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+
+}
+nav ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+nav li a{
+    text-decoration: none;
+    border: 2px dotted #38341B;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:#38341B;
+}
+nav a:hover {
+    border: 2px solid #EEE38C;
+    background-color:#918747;
+    color:#EEE38C;
+}
+header {
+    background-image: url(./images/robert-gunnarsson-fYENvMqIuCQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-shadow: -2px -2px 0 #524C28, 2px -2px 0 #524C28, -2px 2px 0 #524C28, 2px 2px 0 #524C28;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1 {
+    font-family: "Rubik Bubbles", sans-serif;
+    margin-top: 20px;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+h2 {
+    font-family: "Permanent Marker", sans-serif;
+    margin-top: 10px;
+}
+h3 {
+    font-size: 1.5em;
+    margin: 25px;
+}
+.mission .para {
+    margin: 28px 28px;
+    background-color: #EEE38C;
+    color: #38341B;
+    margin: 0;
+    padding: 28px;
+
+}
+.mission span {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 1.5em;
+}
+.mission,
+.contact {
+    background-color: #524C28;
+    color: #EEE38C;
+}
+image.para {
+    width: 100%;
+}
+.mission span em {
+    font-size: 1.75em;
+    font-family: "Indie Flower", sans-serif;
+}
+.products ul {
+    background-color: #38341B;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.team li{
+    width: 30%;
+    background-color: #918747;
+}
+.team {
+    border: 1px solid #38341B;
+}
+.team ul {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+.products li {
+    
+    width: 400px;
+    height: 500px;
+    margin: 25px 15px;
+    background-color: #EEE38C;
+
+}
+footer {
+    font-size: .75em;
+}
+footer h4 {
+    font-size: 1.25em;
+    margin: 20px;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 1000px) {
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul {
+        margin-top: 5px;
+    }
+    nav li {
+        margin-top: 10px;
+    }
+    .products li,
+    .team li {
+        height: 400px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .products h4 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .team li.diff {
+        background-color: #EEE38C;
+    }
+
+}
